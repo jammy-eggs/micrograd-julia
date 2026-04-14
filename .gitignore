@@ -1,0 +1,20 @@
+Manifest.toml
+examples/Manifest.toml
+.vscode/
+.venv/
+.ruff_cache/
+__pycache__/
+*.pyc
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/build.log
+examples/*.png
+examples/figures/
+examples/results/
+examples/karpathy/.venv/
+test/reference_micrograd/
+
+# Local agent / OrbStack scratch
+.agent-memory/
+workspaces/
